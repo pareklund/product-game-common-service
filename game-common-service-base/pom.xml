@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- parent> <groupId>com.anygine.core.common</groupId> <artifactId>common</artifactId> 
+		<version>1.0-SNAPSHOT</version> </parent -->
+
+  <parent>
+    <groupId>com.anygine.product.game.common.service</groupId>
+    <artifactId>product-game-common-service-module</artifactId>
+    <version>1.0-SNAPSHOT</version>  
+  </parent>
+  
+  <groupId>com.anygine.product.game.common.service</groupId>
+  <artifactId>product-game-common-service-base</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <packaging>jar</packaging>
+  <name>Anygine Product Game Common Service Base Component</name>
+  <description>Anygine Product Game Common Service Base Component</description>
+
+  <!-- NOTE: The build path of this project is currently incomplete -->
+  <dependencies>
+    <dependency>
+      <groupId>com.googlecode.playn</groupId>
+      <artifactId>playn-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
